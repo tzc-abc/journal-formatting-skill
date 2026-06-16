@@ -1,0 +1,4 @@
+interface:
+  display_name: "Journal Formatting"
+  short_description: "Format manuscripts to journal guidelines"
+  default_prompt: "Use $journal-formatting to format my manuscript according to this journal guide."
