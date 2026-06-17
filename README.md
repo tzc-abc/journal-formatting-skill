@@ -23,7 +23,19 @@ journal-formatting-skill-open-source/
     ├── agents/
     │   └── openai.yaml
     ├── references/
-    │   └── format-checklist.md
+    │   ├── format-checklist.md
+    │   └── journal-packs/
+    │       ├── README.md
+    │       ├── nature-portfolio.md
+    │       ├── science-aaas.md
+    │       ├── cell-press.md
+    │       ├── wiley-materials.md
+    │       ├── acs.md
+    │       ├── elsevier.md
+    │       ├── springer-nature-bmc.md
+    │       ├── ieee.md
+    │       ├── mdpi.md
+    │       └── plos.md
     └── scripts/
         └── inspect_docx.py
 ```
@@ -72,6 +84,23 @@ python journal-formatting/scripts/inspect_docx.py manuscript.docx --json
 ```
 
 The script reports paragraph counts, table counts, embedded media, page margins, heading styles, and the first nonempty paragraphs.
+
+## Bundled Journal Packs
+
+The skill includes conservative routing packs for mainstream journals and publishers:
+
+- Nature Portfolio
+- Science / AAAS
+- Cell Press
+- Wiley / Advanced Materials
+- ACS Publications
+- Elsevier
+- Springer Nature / BMC
+- IEEE
+- MDPI
+- PLOS
+
+These packs are starting points. Codex should still verify the current official author guidelines for the exact target journal and article type before applying detailed limits.
 
 ## Notes
 
