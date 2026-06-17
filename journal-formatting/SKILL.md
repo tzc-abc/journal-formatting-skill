@@ -24,6 +24,7 @@ If a requirement is missing and cannot be safely inferred, ask only for the bloc
    - Record source, access date, and version/template date when available.
    - Separate mandatory requirements from preferences and submission-system checks.
    - Use `references/format-checklist.md` as the baseline checklist.
+   - If the target journal or publisher matches a bundled pack, read `references/journal-packs/README.md` and then the relevant pack before drafting requirements.
 
 2. Inspect the manuscript.
    - For `.docx`, run `scripts/inspect_docx.py <file.docx>` for a quick structural audit.
@@ -65,6 +66,8 @@ Use clear file naming:
 ## References
 
 - Read `references/format-checklist.md` when building the requirements table or audit report.
+- Read `references/journal-packs/README.md` when the target journal belongs to a mainstream publisher or journal family covered by the bundled packs.
+- Journal packs are starting points, not final authority. Always verify the current official author guidelines, article type, and journal-specific page before applying exact limits.
 
 ## Scripts
 
